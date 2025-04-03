@@ -3,89 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>P2P iChange.money – Smart tools for Bybit traders</title>
+  <title>P2P iChange.money – Landing</title>
   <style>
     body {
       font-family: sans-serif;
+      margin: 0;
       padding: 2rem;
-      max-width: 960px;
+      box-sizing: border-box;
+      background: #f8f9fa;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      justify-content: space-between;
+      max-width: 1200px;
       margin: auto;
-      line-height: 1.6;
     }
-    section {
-      margin-bottom: 4rem;
+    .column {
+      flex: 1;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    h1, h2 {
+    h1 {
       color: #0f172a;
-    }
-    ul {
-      padding-left: 1.2rem;
     }
     a.button {
       display: inline-block;
       background: #0f62fe;
       color: white;
-      padding: 0.8em 1.5em;
+      padding: 0.6em 1.4em;
       border-radius: 8px;
       text-decoration: none;
       margin-top: 1rem;
     }
-    hr {
-      margin: 4rem 0;
-      border: none;
-      border-top: 2px dashed #ccc;
+    ul {
+      padding-left: 1.2rem;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- English Version -->
-  <section>
-    <h1>💱 P2P iChange.money</h1>
-    <p>A smart toolkit for P2P traders on <strong>Bybit</strong>. Automation. Control. Insights.</p>
+  <div class="container">
+    <!-- English -->
+    <div class="column">
+      <h1>💱 P2P iChange.money</h1>
+      <p>A smart toolkit for P2P traders on <strong>Bybit</strong>. Automation. Control. Insights.</p>
 
-    <h2>🚀 What does it offer?</h2>
-    <ul>
-      <li>Live portfolio tracking via Bybit API</li>
-      <li>Smart listing and order management</li>
-      <li>Rule-based automation (schedule, events)</li>
-      <li>Custom indicators and clean table-based interface</li>
-    </ul>
+      <h2>🚀 What does it offer?</h2>
+      <ul>
+        <li>Live portfolio tracking via Bybit API</li>
+        <li>Smart listing and order management</li>
+        <li>Rule-based automation (schedule, events)</li>
+        <li>Custom indicators and clean table-based interface</li>
+      </ul>
 
-    <h2>🔗 Main platform</h2>
-    <p>
-      Visit the main platform here:  
-      <br>
-      👉 <a href="https://p2p.ichange.money/" target="_blank">https://p2p.ichange.money</a>
-    </p>
+      <h2>🔗 Main platform</h2>
+      <p>
+        👉 <a href="https://p2p.ichange.money/" target="_blank">https://p2p.ichange.money</a>
+      </p>
 
-    <a class="button" href="https://p2p.ichange.money/" target="_blank">Try it now</a>
-  </section>
+      <a class="button" href="https://p2p.ichange.money/" target="_blank">Try it now</a>
+    </div>
 
-  <hr />
+    <!-- Russian -->
+    <div class="column">
+      <h1>💱 P2P iChange.money</h1>
+      <p>Умный инструмент для P2P-трейдеров на <strong>Bybit</strong>. Автоматизация. Контроль. Аналитика.</p>
 
-  <!-- Russian Version -->
-  <section>
-    <h1>💱 P2P iChange.money</h1>
-    <p>Умный инструмент для P2P-трейдеров на <strong>Bybit</strong>. Автоматизация. Контроль. Аналитика.</p>
+      <h2>🚀 Что умеет сервис?</h2>
+      <ul>
+        <li>Онлайн-отслеживание портфеля через API Bybit</li>
+        <li>Умное управление объявлениями и ордерами</li>
+        <li>Автоматизация по правилам (по времени, по событиям)</li>
+        <li>Пользовательские индикаторы и удобный интерфейс в виде таблицы</li>
+      </ul>
 
-    <h2>🚀 Что умеет сервис?</h2>
-    <ul>
-      <li>Онлайн-отслеживание портфеля через API Bybit</li>
-      <li>Умное управление объявлениями и ордерами</li>
-      <li>Автоматизация по правилам (по времени, по событиям)</li>
-      <li>Пользовательские индикаторы и удобный интерфейс в виде таблицы</li>
-    </ul>
+      <h2>🔗 Основной сайт</h2>
+      <p>
+        👉 <a href="https://p2p.ichange.money/" target="_blank">https://p2p.ichange.money</a>
+      </p>
 
-    <h2>🔗 Основной сайт</h2>
-    <p>
-      Перейдите на основной сайт:  
-      <br>
-      👉 <a href="https://p2p.ichange.money/" target="_blank">https://p2p.ichange.money</a>
-    </p>
-
-    <a class="button" href="https://p2p.ichange.money/" target="_blank">Попробовать сейчас</a>
-  </section>
+      <a class="button" href="https://p2p.ichange.money/" target="_blank">Попробовать сейчас</a>
+    </div>
+  </div>
 
 </body>
 </html>
